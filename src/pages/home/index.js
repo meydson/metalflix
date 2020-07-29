@@ -1,21 +1,22 @@
 import React from 'react';
-import Menu from './components/Menu';
-import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
+import Menu from '../../components/Menu';
+import dadosIniciais from '../../data/dados_iniciais.json';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
 
 function App() {
     return ( <
         div style = {
-            { background: "#141414" } } >
+            { background: "#141414" }
+        } >
         <
         Menu / >
 
         <
         BannerMain videoTitle = { dadosIniciais.categorias[0].videos[0].titulo }
         url = { dadosIniciais.categorias[0].videos[0].url }
-        videoDescription = { "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!" }
+        videoDescription = { "A música aparece como quinto título do álbum Piece Of Mind, editado em 1983, e foi posteriormente lançada num single sobre o título The Trooper, a 20 de junho daquele ano. Previamente, havia sido lançado outro single do mesmo álbum, Flight of Icarus, fazendo The Trooper ser o segundo single e sem dúvida mais famoso entre ambos." }
         />
 
         <
