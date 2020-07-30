@@ -13,15 +13,14 @@ const Main = styled.main `
 `;
 
 function PageDefault({ children }) {
-    return ( < >
-        <
-        Menu / >
-        <
-        Main > { children } <
-        /Main> <
-        Footer / >
-        <
-        />
+    return ( 
+        < >
+            <Menu />
+                <Main> 
+                    { children } 
+                </Main> 
+            <Footer />
+        </>
     );
 }
 
